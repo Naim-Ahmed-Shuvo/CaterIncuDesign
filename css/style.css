@@ -343,6 +343,338 @@ header .hero-img img {
 }
 
 /* discount./ */
+/*price__plan*/
+.price__plan {
+  padding: 30px 0px;
+  margin-top: 80px;
+}
+
+.price__plan .price__plan__title {
+  text-align: center;
+}
+
+.price__plan .price__plan__title h5 {
+  color: #CA1515;
+  font-family: "Fira Sans",sans-serif;
+  font-size: 20px;
+}
+
+.price__plan .price__plan__title h3 {
+  color: #333333;
+  font-family: "Fira Sans",sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.price__plan .price__plan__title .line__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.price__plan .price__plan__title .line__div .first {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.price__plan .price__plan__title .line__div .third {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.price__plan .price__plan__title .line__div .second {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #CB2321;
+  margin: 0px 8px;
+}
+
+.price__plan .card .card__img {
+  background: url(../img/package-01.png);
+  width: 100%;
+}
+
+.price__plan .card .card__img .img__overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px 0px;
+  text-align: center;
+  font-family: "Fira Sans",snas-serif;
+  color: #FFFFFF;
+}
+
+.price__plan .card .card__img .img__overlay h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.price__plan .card .card__img .img__overlay h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.price__plan .card .card__img .img__overlay .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price__plan .card .card__body {
+  background: #EEFEFF;
+  padding: 20px 0px;
+}
+
+.price__plan .card .card__body span {
+  display: block;
+  text-align: center;
+  font-family: "Fira Sans",snas-serif;
+  margin: 10px 0px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.price__plan .card .card__footer {
+  width: 100%;
+}
+
+.price__plan .card .card__footer a {
+  background: #CB2321;
+  display: block;
+  padding: 10px 0px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Fira Sans",snas-serif;
+  text-decoration: none;
+}
+
+/*price__plan./*/
+/*planing & event*/
+.planning__event {
+  margin-top: 50px;
+  padding: 30px 0px;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.planning__event .planning__event__header {
+  text-align: center;
+}
+
+.planning__event .planning__event__header h5 {
+  font-family: inherit;
+  color: #CA1515;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.planning__event .planning__event__header h3 {
+  font-family: inherit;
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.planning__event .planning__event__header .line__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.planning__event .planning__event__header .line__div .first {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.planning__event .planning__event__header .line__div .third {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.planning__event .planning__event__header .line__div .second {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #CB2321;
+  margin: 0px 8px;
+}
+
+.planning__event .planning__event__img img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.planning__event .event {
+  font-family: "Fira Sans",sans-serif;
+}
+
+.planning__event .event .event__no {
+  margin-right: 20px;
+}
+
+.planning__event .event .event__no span {
+  font-family: inherit;
+  color: #E7E7E7;
+  font-size: 50px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.planning__event .event .event__details h5 {
+  color: #555555;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #555555;
+  margin-bottom: 10px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.planning__event .event .event__details p {
+  color: #787878;
+  font-size: 15px;
+  font-weight: 400;
+  width: 228px;
+}
+
+.planning__event .event:hover {
+  cursor: pointer;
+}
+
+.planning__event .event:hover .event__no span {
+  color: #CA1515;
+}
+
+.planning__event .event:hover .event__details h5 {
+  color: #CA1515;
+}
+
+.planning__event .active .event__no span {
+  color: #CA1515;
+}
+
+.planning__event .active .event__details h5 {
+  color: #CA1515;
+}
+
+/*planing & event./*/
+/*about us*/
+.about__us {
+  margin-top: 50px;
+  padding: 30px 0px;
+}
+
+.about__us .about__header {
+  text-align: center;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.about__us .about__header h5 {
+  font-family: inherit;
+  color: #CA1515;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.about__us .about__header h3 {
+  font-family: inherit;
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.about__us .about__header .line__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.about__us .about__header .line__div .first {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.about__us .about__header .line__div .third {
+  height: 1px;
+  width: 120px;
+  background: #CCCCCC;
+}
+
+.about__us .about__header .line__div .second {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #CB2321;
+  margin: 0px 8px;
+}
+
+.about__us .about__main__text {
+  font-family: "Fira Sans",sans-serif;
+  padding: 10px;
+}
+
+.about__us .about__main__text h5 {
+  color: #CA1515;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about__us .about__main__text h3 {
+  color: #333333;
+  font-size: 25px;
+  width: 232px;
+  margin: 5px 0px;
+  font-weight: 00;
+}
+
+.about__us .about__main__text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #555555;
+  width: 300px;
+}
+
+/*about us./*/
 /* mobile-menu-home */
 .mobile-menu-home {
   position: absolute;

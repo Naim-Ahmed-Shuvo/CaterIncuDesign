@@ -309,6 +309,290 @@ header{
 }
 /* discount./ */
 
+/*price__plan*/
+.price__plan{
+    padding: 30px 0px;
+    margin-top: 80px;
+    .price__plan__title{
+        text-align: center;
+        h5{
+            color: #CA1515;
+            font-family: "Fira Sans",sans-serif; 
+            font-size: 20px;
+        }
+        h3{
+            color: #333333;
+            font-family: "Fira Sans",sans-serif; 
+            font-size: 30px;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+        .line__div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            .first{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+               
+            }
+            .third{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+            }
+            .second{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background: #CB2321;
+                margin: 0px 8px;
+            }
+        }
+    }
+    .card{
+        .card__img{
+            background: url(../img/package-01.png);
+            width: 100%;
+            .img__overlay{
+                background: rgba(0,0,0,0.5);
+                padding: 30px 0px;
+                text-align: center;
+                font-family: "Fira Sans",snas-serif;
+                color: #FFFFFF;
+                h4{
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+                h3{
+                    font-size: 30px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+                .price{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .card__body{
+            background: #EEFEFF;
+            padding: 20px 0px;
+            span{
+                display: block;
+                text-align: center;
+                font-family: "Fira Sans",snas-serif;
+                margin: 10px 0px;
+                color: #333333;
+                font-weight: 400;
+            }
+        }
+        .card__footer{
+            width: 100%;
+            a{
+                background: #CB2321;
+                display: block;
+                padding: 10px 0px;
+                text-align: center;
+                color: #FFFFFF;
+                font-family: "Fira Sans",snas-serif;
+                text-decoration: none;
+            }
+        }
+    }
+}
+/*price__plan./*/
+
+/*planing & event*/
+.planning__event{
+    margin-top: 50px;
+    padding: 30px 0px;
+    font-family: "Fira Sans",sans-serif;
+    .planning__event__header{
+        text-align: center;
+        h5{
+            font-family: inherit;
+            color: #CA1515;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-family: inherit;
+            color: #333333;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .line__div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            .first{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+               
+            }
+            .third{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+            }
+            .second{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background: #CB2321;
+                margin: 0px 8px;
+            }
+        }
+    }
+    
+    .planning__event__img{
+        img{
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+    .event{
+        font-family: "Fira Sans",sans-serif;
+        
+        .event__no{
+            margin-right: 20px;
+            span{
+                font-family: inherit;
+                color: #E7E7E7;
+                font-size: 50px;
+                transition: all .5s ease-in-out;
+            }
+           
+        }
+        .event__details{
+            h5{
+                color: #555555;
+                padding-bottom: 5px;
+                border-bottom: 1px solid #555555;
+                margin-bottom: 10px;
+                transition: all .5s ease-in-out;
+            }
+            p{
+                color: #787878;
+                font-size: 15px;
+                font-weight: 400;
+                width: 228px;
+            }
+        }
+        &:hover{
+            cursor: pointer;
+            .event__no{
+                span{
+                    color: #CA1515;
+                }
+            }
+            .event__details{
+                h5{
+                    color: #CA1515;
+                }
+            }
+        }
+    }
+    .active{
+        .event__no{
+            span{
+                color: #CA1515;
+            }
+        }
+        .event__details{
+            h5{
+                color: #CA1515;
+            }
+        }
+    }
+}
+/*planing & event./*/
+
+/*about us*/
+.about__us{
+    margin-top: 50px;
+    padding: 30px 0px;
+    .about__header{
+        text-align: center;
+        font-family: "Fira Sans",sans-serif;
+        h5{
+            font-family: inherit;
+            color: #CA1515;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        h3{
+            font-family: inherit;
+            color: #333333;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .line__div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            .first{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+               
+            }
+            .third{
+                height: 1px;
+                width: 120px;
+                background: #CCCCCC;
+            }
+            .second{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;
+                background: #CB2321;
+                margin: 0px 8px;
+            }
+        }
+    }
+    .about__main__text{
+        font-family: "Fira Sans",sans-serif;
+        padding: 10px;
+        h5{
+            color: #CA1515;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        h3{
+            color: #333333;
+            font-size: 25px;
+            width: 232px;
+            margin: 5px 0px;
+            font-weight: 00;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #555555;
+            width: 300px;
+        }
+    }
+}
+/*about us./*/
+
+
 /* mobile-menu-home */
 .mobile-menu-home{
     position: absolute;
