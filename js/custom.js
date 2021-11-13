@@ -26,7 +26,7 @@ $(document).ready(function(){
     })
 
     // show hide mobile nav
-    $('#click').click(function(){
+    $('.bars').click(function(){
         $('.mobile-menu').removeClass('hide');
         $('.mobile-menu').addClass('show');
     })
