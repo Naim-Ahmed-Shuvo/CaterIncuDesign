@@ -43,6 +43,9 @@ nav .nav-middle-links {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav .nav-middle-links a {
@@ -590,7 +593,7 @@ header .hero-img img {
   color: #787878;
   font-size: 15px;
   font-weight: 400;
-  width: 228px;
+  max-width: 228px;
 }
 
 .planning__event .event:hover {
@@ -789,9 +792,7 @@ header .hero-img img {
 }
 
 .news__letter .news__letter__form form input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  width: 100%;
   padding: 8px 10px;
   border: none;
   outline: none;
@@ -1065,6 +1066,331 @@ header .hero-img img {
 }
 
 /*latest__blog./*/
+.search__hearo {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/search-banner.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/search-banner.png") no-repeat center;
+  background-size: cover;
+}
+
+.search__hearo .search__container {
+  padding: 130px 0px;
+}
+
+.search__hearo .search__container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #FFC672;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.search__hearo .search__container form input {
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+}
+
+.search__hearo .search__container form button {
+  padding: 0px 10px;
+  outline: none;
+  border: none;
+  background: #FFC672;
+  color: #333333;
+}
+
+.search__map .map {
+  background: url("../img/map.png") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+.search__cards {
+  margin-top: 50px;
+}
+
+.search__cards .search__card {
+  position: relative;
+}
+
+.search__cards .search__card .search__card__of {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: #CB2321;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+.search__cards .search__card .search__card__text {
+  margin-top: 20px;
+  color: #333333;
+}
+
+.search__cards .search__card .search__card__text .title__rating {
+  font-size: 16px;
+}
+
+.search__cards .search__card .search__card__text .title__rating h5 {
+  color: #CA1515;
+  font-family: "Fira Sans",sans-serif;
+  font-size: inherit;
+}
+
+.search__cards .search__card .search__card__text .title__rating .ratings i {
+  color: #FFC672;
+  font-size: inherit;
+}
+
+.search__cards .search__card .search__card__text .title__rating .ratings span {
+  color: inherit;
+  color: #673091;
+}
+
+.search__cards .search__card .search__card__text .location i {
+  color: #787878;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.search__cards .search__card .search__card__text .location span {
+  font-size: 13px;
+  color: #787878;
+}
+
+.our__best__items {
+  font-family: "Fira Sans",sans-serif;
+}
+
+.our__best__items .this__title__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our__best__items .this__title__header h5 {
+  width: 155px;
+  margin-right: 10px;
+  font-family: inherit;
+}
+
+.our__best__items .this__title__header .line__me {
+  height: 1px;
+  width: 100%;
+  background: #CCCCCC;
+}
+
+.our__best__items .best__items__card {
+  font-family: inherit;
+  position: relative;
+}
+
+.our__best__items .best__items__card .card__offer {
+  height: 65px;
+  width: 65px;
+  position: absolute;
+  top: 0%;
+  right: 7%;
+}
+
+.our__best__items .best__items__card .card__offer span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #FFC672;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  font-family: "Fira Sans",sans-serif;
+  font-size: 15px;
+  border: 1px solid #FFFFFF;
+  color: #333333;
+}
+
+.our__best__items .best__items__card .card__text h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.our__best__items .best__items__card .card__text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #787878;
+  margin: 10px 0px;
+}
+
+.our__best__items .best__items__card .card__text span {
+  display: block;
+  margin: 10px;
+  color: #CA1413;
+}
+
+.our__best__items .best__items__card .card__text a {
+  padding: 7px 15px;
+  background: transparent;
+  border: 1px solid #CB2321;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 10px;
+  display: block;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.our__best__items .best__items__card .card__text a:hover {
+  background: #CB2321;
+  color: #FFFFFF;
+}
+
+.price__plan__banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/priceplan-banner.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/priceplan-banner.png") no-repeat center;
+  background-size: cover;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.price__plan__banner .banner__info {
+  padding: 150px 0px;
+  color: #FFFFFF;
+}
+
+.price__plan__banner .banner__info h5 {
+  font-family: inherit;
+  font-size: 20px;
+  color: #FFC672;
+}
+
+.price__plan__banner .banner__info h2 {
+  font-family: inherit;
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+.price__plan__banner .banner__info .line__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price__plan__banner .banner__info .line__circle .line__1, .price__plan__banner .banner__info .line__circle .line__2 {
+  height: 1px;
+  width: 120px;
+  background: #FFC672;
+}
+
+.price__plan__banner .banner__info .line__circle .circle {
+  height: 20px;
+  width: 20px;
+  background: #FFC672;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.planning__event__banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/planning-event-banner.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/planning-event-banner.png") no-repeat center;
+  background-size: cover;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.planning__event__banner .banner__info {
+  padding: 150px 0px;
+  color: #FFFFFF;
+}
+
+.planning__event__banner .banner__info h5 {
+  font-family: inherit;
+  font-size: 20px;
+  color: #FFC672;
+  text-transform: uppercase;
+}
+
+.planning__event__banner .banner__info h2 {
+  font-family: inherit;
+  font-size: 40px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+.planning__event__banner .banner__info span {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.planning__event__banner .banner__info .line__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.planning__event__banner .banner__info .line__circle .line__1, .planning__event__banner .banner__info .line__circle .line__2 {
+  height: 1px;
+  width: 120px;
+  background: #FFC672;
+}
+
+.planning__event__banner .banner__info .line__circle .circle {
+  height: 20px;
+  width: 20px;
+  background: #FFC672;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.planning__event__cards {
+  margin-top: 50px;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.planning__event__cards .planning__event__card .card__text h3 {
+  font-size: 25px;
+  font-family: inherit;
+  color: #333333;
+}
+
+.planning__event__cards .planning__event__card .card__text p {
+  font-size: 16px;
+  color: #555555;
+  font-family: inherit;
+  width: 100%;
+  opacity: 0.8;
+  margin: 10px 0px;
+}
+
+.planning__event__cards .planning__event__card .card__text a {
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 16px;
+  background: #CB2321;
+  margin-top: 10px;
+  display: inline-block;
+}
+
 /*footer*/
 footer {
   background: #260044;
@@ -1249,6 +1575,7 @@ footer .footer__bottom .footer__bottom__text p {
 }
 
 /* mobile-menu-home./ */
+/*responsive*/
 @media (max-width: 320px) {
   nav .logo a img {
     width: 100% !important;
@@ -1331,8 +1658,288 @@ footer .footer__bottom .footer__bottom__text p {
     padding: 7px 10px  !important;
     margin-right: 10px !important;
   }
-  .news__letter .news__letter__form form input {
-    padding: 8px 0px !important;
+  .news__letter .news__letter__info {
+    padding: 0;
+    text-align: center;
+  }
+  .news__letter .news__letter__info h5 {
+    margin-top: 8px !important;
+  }
+  .news__letter .news__letter__form {
+    padding: 0 !important;
+    text-align: center;
+    margin-top: 10px !important;
+  }
+  .news__letter .news__letter__form form button {
+    padding: 5px 2px;
+    font-size: 14px !important;
   }
 }
+
+@media (min-width: 321px) and (max-width: 575.98px) {
+  nav .logo a img {
+    width: 100% !important;
+  }
+  nav .nav-hide-1, nav .nav-hide-2 {
+    display: none  !important;
+  }
+  nav .tik {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  header .hero-img img {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  header .hero-text {
+    margin-top: 291px;
+    text-align: center;
+  }
+  header .hero-text h2 {
+    font-size: 20px;
+  }
+  header .hero-text p {
+    width: 100%;
+  }
+  .testimonial .testimonial__card {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial.homepage-testimonial {
+    padding-top: 0px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__img {
+    width: 85px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .homepage__catering__goods .catering__goods__title .header__tabs ul li {
+    margin: 20px 7px;
+  }
+  .testimonial .slider__item p {
+    width: 100%;
+  }
+  .latest__blog .right__side__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .latest__blog .right__side__card .card__img img {
+    width: 100%;
+  }
+  .latest__blog .right__side .right__side__card .card__text {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+  }
+  .latest__blog .right__side .right__side__card .card__text .top__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .latest__blog .right__side .right__side__card .card__text .top__btns a {
+    font-size: 13px;
+    padding: 7px 10px  !important;
+    margin-right: 10px !important;
+  }
+  .news__letter .news__letter__info {
+    padding: 0;
+    text-align: center;
+  }
+  .news__letter .news__letter__info h5 {
+    margin-top: 8px !important;
+  }
+  .news__letter .news__letter__form {
+    padding: 0 !important;
+    text-align: center;
+    margin-top: 10px !important;
+  }
+  .news__letter .news__letter__form form button {
+    padding: 5px 2px;
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  nav .logo a img {
+    width: 100% !important;
+  }
+  nav .nav-hide-1, nav .nav-hide-2 {
+    display: none  !important;
+  }
+  nav .tik {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  header .hero-img img {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  header .hero-text {
+    margin-top: 288px;
+    text-align: center;
+  }
+  header .hero-text h2 {
+    font-size: 20px;
+  }
+  header .hero-text p {
+    width: 100%;
+  }
+  .testimonial .testimonial__card {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial.homepage-testimonial {
+    padding-top: 0px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__img {
+    width: 85px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .homepage__catering__goods .catering__goods__title .header__tabs ul li {
+    margin: 20px 7px;
+  }
+  .testimonial .slider__item p {
+    width: 100%;
+  }
+  .latest__blog .right__side__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .latest__blog .right__side__card .card__img img {
+    width: 100%;
+  }
+  .latest__blog .right__side .right__side__card .card__text {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+  }
+  .latest__blog .right__side .right__side__card .card__text .top__btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .latest__blog .right__side .right__side__card .card__text .top__btns a {
+    font-size: 13px;
+    padding: 7px 10px  !important;
+    margin-right: 10px !important;
+  }
+  .news__letter .news__letter__info {
+    padding: 0;
+    text-align: center;
+  }
+  .news__letter .news__letter__info h5 {
+    margin-top: 8px !important;
+  }
+  .news__letter .news__letter__form {
+    padding: 0 !important;
+    text-align: center;
+    margin-top: 10px !important;
+  }
+  .news__letter .news__letter__form form button {
+    padding: 5px 2px;
+    font-size: 14px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav .logo a img {
+    width: 100% !important;
+  }
+  nav .nav-hide-1, nav .nav-hide-2 {
+    display: none  !important;
+  }
+  nav .tik {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  header .hero-img img {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  header .hero-text {
+    margin-top: 445px;
+    text-align: center;
+  }
+  header .hero-text h2 {
+    font-size: 20px;
+  }
+  header .hero-text p {
+    width: 100%;
+  }
+  .testimonial .testimonial__card {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial.homepage-testimonial {
+    padding-top: 0px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__img {
+    width: 85px !important;
+  }
+  .testimonial.homepage-testimonial .testimonial__card .card__text {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .bars {
+    display: none  !important;
+  }
+  .latest__blog .top__btns {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+/*responsive./*/
 /*# sourceMappingURL=style.css.map */
