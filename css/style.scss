@@ -1134,7 +1134,7 @@ header{
 
 //--------------------//-------------/////-----------------------------////----------------//
 
-// ------------------------- planning event page -----------------------------------//
+// ------------------------- planning event page start -----------------------------------//
 .planning__event__banner{
     background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/planning-event-banner.png") no-repeat center;
     background-size: cover;
@@ -1211,6 +1211,246 @@ header{
     }
 }
 // ------------------------- planning event page end -----------------------------------//
+
+
+
+// ------------------------- about us page start -----------------------------------//
+.about__us__hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aboutus-banner.png") no-repeat center;
+    background-size: cover;
+    font-family: "Fira Sans",sans-serif;
+    .banner__info{
+        padding: 150px 0px;
+        color: #FFFFFF;
+        h5{
+            font-family: inherit;
+            font-size: 20px;
+            color: #FFC672;
+        }
+        h2{
+            font-family: inherit;
+            font-size: 40px;
+            margin: 10px 0px;
+        }
+        .line__circle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .line__1,.line__2{
+                height: 1px;
+                width: 120px;
+                background: #FFC672;
+            }
+            .circle{
+                height: 20px;
+                width: 20px;
+                background: #FFC672;
+                border-radius: 50%;
+                margin: 0px 10px;
+            }
+        }
+    }
+}
+.aboutus__main{
+    font-family: "Fira Sans",sans-serif;
+    .aboutus__main__leftside{
+        img{
+            border-radius: 10px;
+        }
+        p{
+            font-family: inherit;
+            font-size: 16px;
+            color: #555555;
+            margin-top: 20px;
+        }
+    }
+    .aboutus__main__rightside{
+        padding: 10px;
+        h5{
+            color: #CA1413;
+            font-family: inherit;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        h3{
+            color: #000000;
+            font-family: inherit;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: inherit;
+            font-size: 16px;
+            color: #555555;
+            margin-top: 20px;
+        }
+    }
+}
+.aboutus__bottom{
+    .info{
+        padding: 10px;
+        h5{
+            color: #CA1413;
+            font-family: inherit;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        h3{
+            color: #000000;
+            font-family: inherit;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: inherit;
+            font-size: 16px;
+            color: #555555;
+            margin-top: 20px;
+        }
+    }
+}
+// ------------------------- about us page end -----------------------------------//
+
+
+// ------------------------- cart page start -----------------------------------//
+.cart__main{
+    margin-top: 50px;
+    font-family: "Fira Sanse",sans-serif;
+    .cart__header{
+        background: #673091;
+        padding: 10px 0px;
+        text-align: center;
+        font-family: inherit;
+        color: #FFFFFF;
+    }
+    .table{
+        font-family: inherit;
+        th{
+            color: #333333;
+        }
+        .img__name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .name{
+                text-align: left;
+                margin-left: 20px;
+                font-family: inherit;
+            }
+        }
+        .size{
+           line-height: 141px;
+            span{
+                padding: 5px 10px;
+                border: 1px solid #CCCCCC;
+                border-radius: 5px;
+            }
+        }
+        .qty{
+            line-height: 132px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                padding: 5px;
+                text-decoration: none;
+                color: #333333;
+            }
+            span{
+                color: #333333;
+                margin: 0px 5px;
+            };
+        }
+        .price,.slno{
+            line-height: 142px;
+        }
+    }
+    .cupon__area{
+       form{
+           border: 1px solid #555555;
+           max-width: 500px;
+           display: flex;
+        //    align-items: center;
+           input{
+               width: 100%;
+               padding: 7px 10px;
+               outline: none;
+               border: none;
+           }
+           button{
+               padding: 7px 37px;
+               font-size: 13px;
+               background: #673091;
+               color: #FFFFFF;
+               outline: none;
+               border: none;
+           }
+       }
+    }
+    .update__cart{
+        text-align: right;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 16px;
+            background: #673091;
+            padding: 10px 37px;
+        }
+    }
+    .calculate{
+        max-width: 463px;
+        
+        margin-left: auto;
+        
+        .total__box{
+            border: 1px solid #CCCCCC;
+            padding: 10px;
+            h4{
+                font-size: 16px;
+                color: #333333;
+                border-bottom: 1px solid #CCCCCC;
+                padding-bottom: 5px;
+            }
+            .vat__tax{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span{
+                  font-size: 14px;
+                  color: #555555;
+                }
+            }
+            p{
+                font-size: 14px;
+                color: #555555; 
+            }
+            .total{
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid #CCCCCC;
+                margin-top: 10px;
+                span{
+                    color: #555555;
+                    font-size: 14px;
+                }
+            }
+        }
+        .btns{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 16px;
+                background: #673091;
+                padding: 10px 37px;
+            } 
+        }
+    }
+}
+// ------------------------- cart page end -----------------------------------//
 
 /*footer*/
 footer{

@@ -1391,6 +1391,308 @@ header .hero-img img {
   display: inline-block;
 }
 
+.about__us__hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/aboutus-banner.png") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aboutus-banner.png") no-repeat center;
+  background-size: cover;
+  font-family: "Fira Sans",sans-serif;
+}
+
+.about__us__hero .banner__info {
+  padding: 150px 0px;
+  color: #FFFFFF;
+}
+
+.about__us__hero .banner__info h5 {
+  font-family: inherit;
+  font-size: 20px;
+  color: #FFC672;
+}
+
+.about__us__hero .banner__info h2 {
+  font-family: inherit;
+  font-size: 40px;
+  margin: 10px 0px;
+}
+
+.about__us__hero .banner__info .line__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__us__hero .banner__info .line__circle .line__1, .about__us__hero .banner__info .line__circle .line__2 {
+  height: 1px;
+  width: 120px;
+  background: #FFC672;
+}
+
+.about__us__hero .banner__info .line__circle .circle {
+  height: 20px;
+  width: 20px;
+  background: #FFC672;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+
+.aboutus__main {
+  font-family: "Fira Sans",sans-serif;
+}
+
+.aboutus__main .aboutus__main__leftside img {
+  border-radius: 10px;
+}
+
+.aboutus__main .aboutus__main__leftside p {
+  font-family: inherit;
+  font-size: 16px;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.aboutus__main .aboutus__main__rightside {
+  padding: 10px;
+}
+
+.aboutus__main .aboutus__main__rightside h5 {
+  color: #CA1413;
+  font-family: inherit;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.aboutus__main .aboutus__main__rightside h3 {
+  color: #000000;
+  font-family: inherit;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.aboutus__main .aboutus__main__rightside p {
+  font-family: inherit;
+  font-size: 16px;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.aboutus__bottom .info {
+  padding: 10px;
+}
+
+.aboutus__bottom .info h5 {
+  color: #CA1413;
+  font-family: inherit;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.aboutus__bottom .info h3 {
+  color: #000000;
+  font-family: inherit;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.aboutus__bottom .info p {
+  font-family: inherit;
+  font-size: 16px;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.cart__main {
+  margin-top: 50px;
+  font-family: "Fira Sanse",sans-serif;
+}
+
+.cart__main .cart__header {
+  background: #673091;
+  padding: 10px 0px;
+  text-align: center;
+  font-family: inherit;
+  color: #FFFFFF;
+}
+
+.cart__main .table {
+  font-family: inherit;
+}
+
+.cart__main .table th {
+  color: #333333;
+}
+
+.cart__main .table .img__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart__main .table .img__name .name {
+  text-align: left;
+  margin-left: 20px;
+  font-family: inherit;
+}
+
+.cart__main .table .size {
+  line-height: 141px;
+}
+
+.cart__main .table .size span {
+  padding: 5px 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+.cart__main .table .qty {
+  line-height: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart__main .table .qty a {
+  padding: 5px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.cart__main .table .qty span {
+  color: #333333;
+  margin: 0px 5px;
+}
+
+.cart__main .table .price, .cart__main .table .slno {
+  line-height: 142px;
+}
+
+.cart__main .cupon__area form {
+  border: 1px solid #555555;
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cart__main .cupon__area form input {
+  width: 100%;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+}
+
+.cart__main .cupon__area form button {
+  padding: 7px 37px;
+  font-size: 13px;
+  background: #673091;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+}
+
+.cart__main .update__cart {
+  text-align: right;
+}
+
+.cart__main .update__cart a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  background: #673091;
+  padding: 10px 37px;
+}
+
+.cart__main .calculate {
+  max-width: 463px;
+  margin-left: auto;
+}
+
+.cart__main .calculate .total__box {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+.cart__main .calculate .total__box h4 {
+  font-size: 16px;
+  color: #333333;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 5px;
+}
+
+.cart__main .calculate .total__box .vat__tax {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart__main .calculate .total__box .vat__tax span {
+  font-size: 14px;
+  color: #555555;
+}
+
+.cart__main .calculate .total__box p {
+  font-size: 14px;
+  color: #555555;
+}
+
+.cart__main .calculate .total__box .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #CCCCCC;
+  margin-top: 10px;
+}
+
+.cart__main .calculate .total__box .total span {
+  color: #555555;
+  font-size: 14px;
+}
+
+.cart__main .calculate .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cart__main .calculate .btns a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  background: #673091;
+  padding: 10px 37px;
+}
+
 /*footer*/
 footer {
   background: #260044;

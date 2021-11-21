@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cart | Caterincu</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-lg-3">
+              <div class="logo">
+                <a href="#">
+                  <img src="img/header-logo.png" alt="logo-caterincu" class="img">
+                </a>
+              </div>
+            </div>
+            <div class="col-7 nav-hide-1">
+              <div class="nav-middle-links">
+                <a href="#">Home</a>
+                <a href="#">menu</a>
+                <a href="#">prcing</a>
+                <a href="#">lunch</a>
+                <a href="#">help</a>
+              </div>
+            </div>
+            <div class="col-8 col-lg-2 tik">
+              <div class="nav-right-links nav-hide-2">
+                <a href="search-page.html"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart">
+                  <i class="fas fa-shopping-cart"></i>
+                  <pre>20</pre>
+                </a>
+                <a href="#"><i class="far fa-user"></i></a>
+              </div>
+              <div class="bars">
+                <span></span>
+                <span></span>
+                <span></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- mobile menu -->
+    <section class="mobile-menu mobile-menu-home hide">
+        <div class="close-icon">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="mobile__menu__icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#" class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <pre>20</pre>
+          </a>
+          <a href="#"><i class="far fa-user"></i></a>
+        </div>
+        <div class="mobilemenus__links">
+          <a href="#">Home</a>
+          <a href="#">menu</a>
+          <a href="#">prcing</a>
+          <a href="#">lunch</a>
+          <a href="#">help</a>
+        </div>
+      </section>
+      <!-- mobile menu./ -->
+
+      <!-- cart main -->
+      <section class="cart__main">
+          <div class="container">
+              <div class="row my-4">
+                  <div class="col-12">
+                      <div class="cart__header">
+                          <h4>Billing Information</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="row my-4">
+                  <div class="col-12">
+                    <table class="table table-responsive-sm table-responsive-md w-100 text-center">
+                        <thead>
+                          <tr>
+                            <th scope="col">S.N</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Subtotal</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="slno">1</th>
+                            <td>
+                                <div class="img__name">
+                                    <img src="img/blog-1.png" alt="img">
+                                    <div class="name">
+                                        <h5>Hot meal Steack</h5>
+                                        <span>Mulla Restaurant</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="size">
+                                <span>Helf</span>
+                            </td>
+                            <td> 
+                                <div class="qty">
+                                    <a href="#">+</a>
+                                    <span>2</span>
+                                    <a href="#">-</a>
+                                </div>
+                            </td>
+                            <td class="price">
+                                $ 30.48
+                            </td>
+                            <td class="price">
+                                $ 60.96
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="slno">1</th>
+                            <td>
+                                <div class="img__name">
+                                    <img src="img/blog-1.png" alt="img">
+                                    <div class="name">
+                                        <h5>Hot meal Steack</h5>
+                                        <span>Mulla Restaurant</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="size">
+                                <span>Helf</span>
+                            </td>
+                            <td> 
+                                <div class="qty">
+                                    <a href="#">+</a>
+                                    <span>2</span>
+                                    <a href="#">-</a>
+                                </div>
+                            </td>
+                            <td class="price">
+                                $ 30.48
+                            </td>
+                            <td class="price">
+                                $ 60.96
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="slno">1</th>
+                            <td>
+                                <div class="img__name">
+                                    <img src="img/blog-1.png" alt="img">
+                                    <div class="name">
+                                        <h5>Hot meal Steack</h5>
+                                        <span>Mulla Restaurant</span>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="size">
+                                <span>Helf</span>
+                            </td>
+                            <td> 
+                                <div class="qty">
+                                    <a href="#">+</a>
+                                    <span>2</span>
+                                    <a href="#">-</a>
+                                </div>
+                            </td>
+                            <td class="price">
+                                $ 30.48
+                            </td>
+                            <td class="price">
+                                $ 60.96
+                            </td>
+                          </tr>
+                        
+                        </tbody>
+                      </table>
+                  </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                  <div class="cupon__area">
+                     <form action="#">
+                       <input type="text" placeholder="Cupon Code">
+                       <button>Apply</button>
+                     </form>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="update__cart">
+                      <a href="#">Update Cart</a>
+                    </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col">
+                    <div class="calculate">
+                      <div class="total__box">
+                          <h4>Total Price</h4>
+                          <div class="vat__tax">
+                            <span>Vat & Tax</span>
+                            <span>$ 10</span>
+                          </div>
+                          <p><b>Cutomer:</b> Sadi Khan</p>
+                          <div class="total">
+                            <span>Total</span>
+                            <span>USD: $610</span>
+                          </div>
+                      </div>
+                      <div class="btns">
+                        <a href="#">Back To Home</a>
+                        <a href="#">Process To Check Out</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- cart main./ -->
+      <footer>
+        <div class="container">
+          <div class="row footer__main">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+               <div class="footer__logo">
+                 <h1>CaterIncu</h1>
+                 <div class="logo__links">
+                   <h5>Connect with social media</h5>
+                   <ul class="d-flex mt-3">
+                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div class="footer__info">
+                <div class="footer__title">
+                  <h4>Usefull link</h4>
+                </div>
+                <ul class="footer__links">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact Info</a></li>
+                  <li><a href="#">Business Account</a></li>
+                  <li><a href="#">Privecy & policy</a></li>
+                  <li><a href="#">Privecy & policy</a></li>
+                  <li><a href="#">Help & Support</a></li>
+                </ul>
+              </div>
+             </div>
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+               <div class="footer__info">
+                 <div class="footer__title">
+                   <h4>Usefull link</h4>
+                 </div>
+                 <ul class="footer__links">
+                   <li><a href="#">About us</a></li>
+                   <li><a href="#">Contact Info</a></li>
+                   <li><a href="#">Business Account</a></li>
+                   <li><a href="#">Privecy & policy</a></li>
+                   <li><a href="#">Privecy & policy</a></li>
+                   <li><a href="#">Help & Support</a></li>
+                 </ul>
+               </div>
+             </div>
+          </div>
+          <div class="row footer__bottom">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="footer__bottom__text">
+                    <p>@copyright 2021 | All right reserved at cater incubator.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     <!-- scripts -->
+     <script src="js/jquery-3.6.0.min.js"></script>
+     <script src="js/slick.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/slick.min.js"></script>
+     <script src="js/custom.js"></script>
+</body>
+</html>
