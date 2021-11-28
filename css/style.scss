@@ -1677,6 +1677,8 @@ header{
        }
    }
    .checkout__form__right{
+       color: #555555;
+       padding: 0px 30px;
        .right__title{
         font-size: 16px;
         color: #555555;
@@ -1687,6 +1689,53 @@ header{
            display: flex;
            align-items: center;
            justify-content: space-between;
+           border-bottom: 1px solid #CCCCCC;
+           padding-bottom: 10px;
+       }
+       .tbl__body{
+          border-bottom: 1px solid #CCCCCC;
+          padding: 10px 0px;
+           li{
+               display: flex;
+               justify-content: space-between;
+               margin: 5px 0px;
+               .item__name__sl{
+                   display: flex;
+                   padding: 10px 0px;
+                   span{
+                       margin-right: 5px;
+                       color: inherit;
+                   } p{
+                       color: #555555;
+                   }
+               }
+           }
+       }
+       .tbl__subtotal{
+           padding: 10px 0px;
+           border-bottom: 1px solid #CCCCCC;
+       }
+       .tbl__total{
+        padding: 10px 0px;
+       }
+       .bank__transfer,.conditions{
+           color: #555555;
+           p,label{
+               font-size: 14px;
+           }
+       }
+       .place__order__button{
+           a{
+               width: 100%;
+               padding: 9px;
+               background: #673091;
+               display: block;
+               margin-top: 30px;
+               text-align: center;
+               text-decoration: none;
+               color: #FFFFFF;
+               font-size: 16px;
+           }
        }
    }
 }

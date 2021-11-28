@@ -1952,6 +1952,11 @@ header .hero-img img {
   padding: 8px;
 }
 
+.checkout__main .checkout__form__right {
+  color: #555555;
+  padding: 0px 30px;
+}
+
 .checkout__main .checkout__form__right .right__title {
   font-size: 16px;
   color: #555555;
@@ -1969,6 +1974,68 @@ header .hero-img img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+
+.checkout__main .checkout__form__right .tbl__body {
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px 0px;
+}
+
+.checkout__main .checkout__form__right .tbl__body li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.checkout__main .checkout__form__right .tbl__body li .item__name__sl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.checkout__main .checkout__form__right .tbl__body li .item__name__sl span {
+  margin-right: 5px;
+  color: inherit;
+}
+
+.checkout__main .checkout__form__right .tbl__body li .item__name__sl p {
+  color: #555555;
+}
+
+.checkout__main .checkout__form__right .tbl__subtotal {
+  padding: 10px 0px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.checkout__main .checkout__form__right .tbl__total {
+  padding: 10px 0px;
+}
+
+.checkout__main .checkout__form__right .bank__transfer, .checkout__main .checkout__form__right .conditions {
+  color: #555555;
+}
+
+.checkout__main .checkout__form__right .bank__transfer p, .checkout__main .checkout__form__right .bank__transfer label, .checkout__main .checkout__form__right .conditions p, .checkout__main .checkout__form__right .conditions label {
+  font-size: 14px;
+}
+
+.checkout__main .checkout__form__right .place__order__button a {
+  width: 100%;
+  padding: 9px;
+  background: #673091;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 
 /*footer*/
