@@ -1743,7 +1743,91 @@ header{
 
 
 // ------------------------ blog details page start -----------------------------------//
-
+.blog__details__main{
+    .blog__details__left{
+        .blog__details{
+            .blod__details__img{
+                position: relative;
+                .breadcumb{
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    padding: 10px 5px;
+                    background: rgba(0,0,255,0.1);
+                    width: 100%;
+                    span{
+                        color: #FFFFFF;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .blog__details__info{
+                p{
+                    font-size: 24px;
+                    color: #555555;
+                }
+                .comment{
+                    img{
+                        border-radius: 50%;
+                    }
+                    span{
+                        color: #555555;
+                        font-size: 14px;
+                    }
+                    .share__links{
+                        .links{
+                            a{
+                                text-decoration: none;
+                                color: #4A6F8A;
+                                margin: 0px 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .second__row{
+            p{
+                font-size: 16px;
+                color: #555555;
+                margin-top: 20px;
+            }
+        }
+        .third__row{
+            p{
+                color: #555555;
+                font-size: 16px;
+            }
+        }
+        .fourth__row{
+            p{
+                color: #555555;
+                font-size: 16px;
+            }
+        }
+        .fifth__row{
+            a{
+                text-decoration: none;
+                p{
+                    color: #555555;
+                    font-size: 16px; 
+                }
+            }
+            .pagination{
+                a{
+                    text-decoration: none;
+                    padding: 7px 38px;
+                    background: #CB2321;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .blod_details__right{
+        
+    }
+}
 // ------------------------ blog details page end -----------------------------------//
 /*footer*/
 footer{
