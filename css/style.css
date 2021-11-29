@@ -37,6 +37,9 @@ nav {
 
 nav .nav-middle-links {
   height: 100%;
+}
+
+nav .nav-middle-links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,6 +49,17 @@ nav .nav-middle-links {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+nav .nav-middle-links ul .dorp__down .pages_dropdown {
+  background: #FFFF;
+  position: absolute;
+}
+
+nav .nav-middle-links ul .dorp__down .pages_dropdown li {
+  display: block;
 }
 
 nav .nav-middle-links a {
@@ -56,6 +70,27 @@ nav .nav-middle-links a {
   font-size: 14px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+nav .nav-middle-links ul.pages {
+  position: absolute;
+  bottom: -363%;
+  left: 76%;
+  background: #FFFF;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 231px;
+  display: none;
+}
+
+nav .nav-middle-links ul.pages li {
+  padding: 3px;
+}
+
+nav .nav-middle-links ul.pages li a {
+  font-size: 16px;
+  font-family: "Fira Sans",sans-serif;
+  color: #333333;
 }
 
 nav .nav-right-links {
@@ -2107,6 +2142,109 @@ header .hero-img img {
   background: #CB2321;
   color: #FFFFFF;
   font-size: 16px;
+}
+
+.blog__details__main .blod_details__right .right__title h4 {
+  color: #555555;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 20px;
+}
+
+.blog__details__main .blod_details__right .img__content {
+  position: relative;
+}
+
+.blog__details__main .blod_details__right .img__content .content {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 28px;
+}
+
+.blog__details__main .blod_details__right .img__content .content p {
+  font-size: 16px;
+  color: #FFFFFF;
+  max-width: 221px;
+}
+
+.blog__details__main .blod_details__right .img__content .content .content__info .info i, .blog__details__main .blod_details__right .img__content .content .content__info .info span {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.blog__details__main .blod_details__right .categoires h4 {
+  text-transform: uppercase;
+  color: #555555;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.blog__details__main .blod_details__right .categoires ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 4px;
+}
+
+.blog__details__main .blod_details__right .categoires ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 16px;
+}
+
+.blog__details__main .blod_details__right .categoires ul li span {
+  color: #555555;
+  font-size: 16px;
+}
+
+.blog__details__main .blod_details__right .featured__posts .title h4 {
+  text-transform: uppercase;
+  color: #555555;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.blog__details__main .blod_details__right .featured__posts .posts a {
+  text-decoration: none;
+}
+
+.blog__details__main .blod_details__right .featured__posts .posts .info h4 {
+  color: #333333;
+  font-size: 13px;
+}
+
+.blog__details__main .blod_details__right .featured__posts .posts .info p {
+  color: #4A6F8A;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.blog__details__main .blod_details__right .archive h4 {
+  color: #555555;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.blog__details__main .blod_details__right .archive ul li {
+  padding: 10px 0px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.blog__details__main .blod_details__right .archive ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 14px;
 }
 
 /*footer*/

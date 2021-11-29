@@ -35,9 +35,24 @@ nav{
     width: 100%;
     .nav-middle-links{
         height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 100%;
+            .dorp__down{
+                // position: relative;
+                .pages_dropdown{
+                    // display: none;
+                    background: #FFFF;
+                    position: absolute;
+                    li{
+                        display: block;
+                    }
+                }
+            }
+        }
         a{
             padding: 0px 29px;
             color: #333333;
@@ -46,6 +61,24 @@ nav{
             font-size: 14px;
             text-decoration: none;
             text-transform: capitalize;
+        }
+        ul.pages{
+            position: absolute;
+            bottom: -363%;
+            left: 76%;
+            background: #FFFF;
+            border-radius: 10px;
+            padding: 10px;
+            min-width: 231px;
+            display: none;
+            li{
+                padding: 3px;
+                a{
+                    font-size: 16px;
+                    font-family: "Fira Sans",sans-serif;
+                    color: #333333;
+                }
+            }
         }
     }
     .nav-right-links{
@@ -1825,10 +1858,120 @@ header{
         }
     }
     .blod_details__right{
-        
+        .right__title{
+            h4{
+                color: #555555;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #CCCCCC;
+                font-size: 20px;
+            }
+        }
+        .img__content{
+            position: relative;
+            .content{
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+                width: 100%;
+                padding: 28px;
+                p{
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    max-width: 221px;
+
+                }
+                .content__info{
+                    .info{
+                        i,span{
+                            color: #FFFFFF;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .categoires{
+            h4{
+                text-transform: uppercase;
+                color: #555555;
+                padding-bottom: 10px;
+                font-size: 20px;
+                border-bottom: 1px solid #CCCCCC;
+            }
+            ul{
+                li{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 10px 4px;
+                    a{
+                        text-decoration: none;
+                        color: #555555;
+                        font-size: 16px;
+                    }
+                    span{
+                        color: #555555;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .featured__posts{
+            .title{
+                h4{
+                    text-transform: uppercase;
+                    color: #555555;
+                    padding-bottom: 10px;
+                    font-size: 20px;
+                    border-bottom: 1px solid #CCCCCC;
+                }
+            }
+            .posts{
+                a{
+                    text-decoration: none;
+                }
+                .info{
+                    h4{
+                        color: #333333;
+                        font-size: 13px;
+                    }
+                    p{
+                        color: #4A6F8A;
+                        font-size: 11px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        .archive{
+            h4{
+                color: #555555;
+                font-size: 20px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #CCCCCC;
+            }
+            ul{
+                li{
+                    padding: 10px 0px;
+                    border-bottom: 1px solid #CCCCCC;
+                    a{
+                        text-decoration: none;
+                        color: #555555;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
     }
 }
 // ------------------------ blog details page end -----------------------------------//
+
+
+// pages
+
+// pages./
 /*footer*/
 footer{
     background: #260044;

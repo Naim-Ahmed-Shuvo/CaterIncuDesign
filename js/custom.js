@@ -1,6 +1,15 @@
 $(document).ready(function(){
     console.log("ready");
    
+    $("#shw_pages").hover(function() {
+      var isHovered = $(this).is(":hover");
+      console.log(isHovered);
+      if (isHovered) {
+        $(".pages").stop().slideDown(300);
+      } else {
+        $(".pages").stop().slideUp(300);
+      }
+    });
 
     // scroll up btn show
     $(window).on("scroll",()=>{
