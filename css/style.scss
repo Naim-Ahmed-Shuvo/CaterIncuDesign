@@ -41,45 +41,55 @@ nav{
             justify-content: center;
             position: relative;
             height: 100%;
-            .dorp__down{
-                // position: relative;
+            li{
+                
+                span{
+                    a{
+                        padding: 0px 29px;
+                        color: #333333;
+                        font-family: "Poppins",sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                    }
+                }
+                
+                
+            }
+
+            li.tik{
+                position: relative;
                 .pages_dropdown{
-                    // display: none;
-                    background: #FFFF;
                     position: absolute;
-                    li{
+                    top: 97%;
+                    background: #FFFF;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 11px;
+                    border-radius: 5px;
+                    display: none;
+                    transition: all .5s ease;
+                   span{
+                       padding: 10px 10px;
+                       margin: 10px 0px;
+                       display: block;
+                       &:hover{
+                           background: rgb(221, 219, 219);
+                       }
+                   }
+                }
+                &:hover{
+                    .pages_dropdown{
                         display: block;
+                        background-color: #fff;
                     }
                 }
             }
+           
         }
-        a{
-            padding: 0px 29px;
-            color: #333333;
-            font-family: "Poppins",sans-serif;
-            font-weight: 500;
-            font-size: 14px;
-            text-decoration: none;
-            text-transform: capitalize;
-        }
-        ul.pages{
-            position: absolute;
-            bottom: -363%;
-            left: 76%;
-            background: #FFFF;
-            border-radius: 10px;
-            padding: 10px;
-            min-width: 231px;
-            display: none;
-            li{
-                padding: 3px;
-                a{
-                    font-size: 16px;
-                    font-family: "Fira Sans",sans-serif;
-                    color: #333333;
-                }
-            }
-        }
+        
+        
     }
     .nav-right-links{
         height: 100%;

@@ -53,16 +53,7 @@ nav .nav-middle-links ul {
   height: 100%;
 }
 
-nav .nav-middle-links ul .dorp__down .pages_dropdown {
-  background: #FFFF;
-  position: absolute;
-}
-
-nav .nav-middle-links ul .dorp__down .pages_dropdown li {
-  display: block;
-}
-
-nav .nav-middle-links a {
+nav .nav-middle-links ul li span a {
   padding: 0px 29px;
   color: #333333;
   font-family: "Poppins",sans-serif;
@@ -72,25 +63,41 @@ nav .nav-middle-links a {
   text-transform: capitalize;
 }
 
-nav .nav-middle-links ul.pages {
+nav .nav-middle-links ul li.tik {
+  position: relative;
+}
+
+nav .nav-middle-links ul li.tik .pages_dropdown {
   position: absolute;
-  bottom: -363%;
-  left: 76%;
+  top: 97%;
   background: #FFFF;
-  border-radius: 10px;
-  padding: 10px;
-  min-width: 231px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 11px;
+  border-radius: 5px;
   display: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
-nav .nav-middle-links ul.pages li {
-  padding: 3px;
+nav .nav-middle-links ul li.tik .pages_dropdown span {
+  padding: 10px 10px;
+  margin: 10px 0px;
+  display: block;
 }
 
-nav .nav-middle-links ul.pages li a {
-  font-size: 16px;
-  font-family: "Fira Sans",sans-serif;
-  color: #333333;
+nav .nav-middle-links ul li.tik .pages_dropdown span:hover {
+  background: #dddbdb;
+}
+
+nav .nav-middle-links ul li.tik:hover .pages_dropdown {
+  display: block;
+  background-color: #fff;
 }
 
 nav .nav-right-links {
